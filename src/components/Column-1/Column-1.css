@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap');
+.weekly{
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+margin-top: 2%;
+}
+
+.weekly-progress{
+    width: 20%;
+    padding: 0px 20px 0px 10px;
+    font-family: poppins;
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+    box-shadow: 0px 4px 4px 0px rgba(24, 120, 242, 0.25);
+    background-color: white;
+}
+
+h4{
+    margin-bottom: 2px;
+    margin-top: 0px;
+}
+
+.sub-progress{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.digits{
+display: flex;
+flex-direction: column;
+}
+
+.graph{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+h3{
+   color: #333;
+   font-family: Poppins;
+font-size: 30px;
+font-style: normal;
+font-weight: 700;
+margin-bottom: 0;
+
+}
+
+.per-value{
+    display: flex;
+    flex-direction: row;
+    
+}
+h5{
+    margin-left: 5%;
+    margin-top: 0px;
+}
+
+.mini-digit{
+    margin-top: 0;
+
+}
+
+.days{
+    display: flex;
+    flex-direction: row;
+    font-size: 12PX;
+    justify-content: space-between;
+    margin-top: 0;
+}
+
+H6{
+    margin-top: 0;
+}
+
+
+/* line graph*/
+
+.line{
+height: 100%;
+width: 100%;
+}
